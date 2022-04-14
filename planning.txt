@@ -1,0 +1,35 @@
+-------------------------Research before Planning----------------------
+Critera of the API 
+Implement a Responsive Design that works in the Chrome browser on desktop, iOS devices, and Android devices.
+Access at least 2 remote APIs (data mashup!)
+Use fewer than 3 global variables 
+
+What should our default city be?  
+
+Agile Process: 
+Planning (this would be everthing in this txt file)
+Requirements analysis (This is looking over the requirements that Troy sent us)
+Design (This would be what the product looks like, the website page)
+Implementation, coding or development (This would be javascript and features of the API)
+Testing (This would be looking at the finished product, then going back in to make changes, using edge cases)
+Deployment 
+---------------Planning--------------------------------------------------
+
+
+
+Create a framwork that outlines our website 
+
+Outline the features for our website 
+
+Decide how we want the website to look 
+Colors, header, background animations? 
+
+Decide on the features: 
+Features: Displays the State,City,Zipcode 
+API's used: Weather App, Moon tracker or Almanac API, Notification/text Api  
+
+Click on the skyline and it flips to the almanac part
+Background when sunny its sunshine and when rainy its 
+
+
+

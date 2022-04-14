@@ -1,0 +1,75 @@
+body {
+    display: grid;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    background-color: rgb(24, 183, 204);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    }
+    .header {
+        height: 150px;
+        text-align: center;
+        margin: 0px, 0px, 0px,45px;
+        padding: 30px;
+        background-color:rgb(24, 183, 204);
+        border: 10px solid rgba(28,110,164,0.36);
+    }
+    .header div {
+        background-color: #BB6885;
+        float:left;
+        /* width:50%; */
+        padding: 10px;
+        border: 10px solid rgba(28,110,164,0.36);
+    }
+    .container {
+        background-color: rgb(24, 183, 204);
+        justify-content: space-evenly;
+    }
+    .weather {
+        max-width: 1200px;
+        margin: 45px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 45px;
+        grid-row-gap: 45px;
+        padding: 30px 45px;
+    }
+    .affirmations {
+        color: #BB6885;
+        font-size: 1.5rem;
+        font-weight: normal;
+        margin: 45px;
+    }
+
+    .afirmations {
+        position: absolute;
+        right: 100px;
+    }
+    .city {
+        margin: 0;
+        padding: 5px;
+        width: 500px;
+        height: 500px;
+        color: ivory;
+        text-align: center;
+        background-color: #80FF80;
+        border: 10px solid rgba(28,110,164,0.36);
+    }
+    .alminac {
+        margin: 0 0 0 78px;
+        width: 500px;
+        height: 500px;
+        padding: 5px;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Clouds.gif);
+        border: 10px solid rgba(28,110,164,0.36);
+    }
+    #logo {
+        background-image: url("");
+    }
+    @media screen and (min-width:1201px) and (max-width:1475px) {
+    }
