@@ -1,6 +1,1 @@
-document.addEventListener("DOMContentLoaded", function() {
-//affirmations 
-
-// cities api 
-
-})
+const d = new Date("03/25/2015"); 

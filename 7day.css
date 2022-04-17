@@ -8,8 +8,9 @@
 
  }
  
- h1.city {
+ city h1 {
      padding: 10px;
+     
  }
     
 
@@ -49,7 +50,8 @@
     font-size: medium;
 }
 .icon {
-    background-image: url('https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png');
+    
     height: 100px;
-    width: 100px;
+    width: 300px;
 }
+
