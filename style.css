@@ -4,23 +4,25 @@ body {
     font-size: 18px;
     letter-spacing: 2px;
     word-spacing: 2px;
-    background-image: url("https://images.pexels.com/photos/3608311/pexels-photo-3608311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-color: rgb(24, 183, 204); */
     font-weight: normal;
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
     text-transform: none;
     }
+    #cityPic {
+        width: 100%;
+        height: auto;
+
+    }
     .header {
         height: 150px;
         text-align: center;
         margin: 0px, 0px, 0px,45px;
         padding: 30px;
-        background-image: url("https://images.pexels.com/photos/3608311/pexels-photo-3608311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-        border: 10px solid rgba(5, 50, 80, 0.36);
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-position: 50% 50% ;
+        background-color:rgb(24, 183, 204);
+        border: 10px solid rgba(28,110,164,0.36);
     }
     .header div {
         background-color: #BB6885;
@@ -30,11 +32,8 @@ body {
         border: 10px solid rgba(28,110,164,0.36);
     }
     .container {
-        background-image: url("https://images.pexels.com/photos/3608311/pexels-photo-3608311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-color: rgb(24, 183, 204);
         justify-content: space-evenly;
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-position: 50% 50% ;
     }
     .weather {
         max-width: 1200px;
@@ -54,8 +53,7 @@ body {
 
     .afirmations {
         position: absolute;
-        
-
+        right: 100px;
     }
     .city {
         margin: 0;
