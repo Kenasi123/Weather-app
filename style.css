@@ -85,6 +85,8 @@ body {
         height: 500px;
         color: ivory;
         text-align: center;
+        font-size: 30px; 
+        color:black;
         background-color: ;
         border: 5px solid rgba(28,110,164,0.36);
     }
