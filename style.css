@@ -15,6 +15,30 @@ body {
         background: linear-gradient(#a6d8ff,#fff,#fff);
 
     }
+    a.button1{
+        display:inline-block;
+        padding:0.35em 1.2em;
+        border:0.1em solid black;
+        margin:0 0.3em 0.3em 0;
+        border-radius:0.12em;
+        box-sizing: border-box;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:#add8e6;
+        text-align:center;
+        transition: all 0.2s;
+        }
+        a.button1:hover{
+        color:#000000;
+        background-color:#FFFFFF;
+        }
+        @media all and (max-width:30em){
+        a.button1{
+        display:block;
+        margin:0.4em auto;
+        }
+        }
 .sun {
         
         position:absolute;
@@ -79,7 +103,7 @@ body {
 
     }
     .city {
-        margin: 0;
+        margin: 0 0 0 250px;
         padding: 88px;
         width: 500px;
         height: 500px;
@@ -102,4 +126,85 @@ body {
         background-image: url("");
     }
     @media screen and (min-width:1201px) and (max-width:1475px) {
+        body {
+            display:grid
+            font-family: 'Abril Fatface', cursive;
+            font-size: 18px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            position:relative; 
+            height: 100vh;
+            background: linear-gradient(#a6d8ff,#fff,#fff);
+    
+        }
+        .city {
+            margin: 0;
+            padding: 88px;
+            width: 500px;
+            height: 500px;
+            color: ivory;
+            text-align: center;
+            font-size: 30px; 
+            color:black;
+            background-color: ;
+            border: 5px solid rgba(28,110,164,0.36);
+        }
+        .affirmations {
+            color: black;
+            font-size: 50px;
+            font-weight: normal;
+            margin: 50px;
+            
+        }
+        .alminac {
+            margin: 0 0 0 150px;
+            width: 500px;
+            height: 500px;
+            padding: 88px;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Clouds.gif);
+            border: 5px solid rgba(28,110,164,0.36);
+        }
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        body {
+            display:grid
+            font-family: 'Abril Fatface', cursive;
+            font-size: 18px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            position:relative; 
+            height: 100vh;
+            background: linear-gradient(#a6d8ff,#fff,#fff);
+    
+        }
+        .city {
+            margin: 0;
+            display:grid;
+            padding: 88px;
+            width: 500px;
+            height: 500px;
+            color: ivory;
+            text-align: center;
+            font-size: 30px; 
+            color:black;
+            background-color: ;
+            border: 5px solid rgba(28,110,164,0.36);
+        }
+        .affirmations {
+            color: black;
+            font-size: 50px;
+            font-weight: normal;
+            margin: 50px;
+            
+        }
+        .alminac {
+            display:grid;
+            margin: 0 0 0 150px;
+            width: 500px;
+            height: 500px;
+            padding: 88px;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Clouds.gif);
+            border: 5px solid rgba(28,110,164,0.36);
+        }
+
     }

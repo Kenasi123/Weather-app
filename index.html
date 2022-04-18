@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -25,18 +26,19 @@
         </div>
         <div class="container">
             <div class="weather">
-            <div class="city">
-                
-                <div class="zipcode">
-                    <label for="zipcode">Enter your zipcode...</label>
-                    <input type="text" id="zipcode" value="" required>
-                    <span class="indicator">
-                        <i class="ri-close-circle-fill ri icon"></i>
-                    </span>
-                </div>
-                
+            <div class="city" id="city">
+                <p>Enter current City,State,Zipcode</p>
+                <form>
+                    <input id="search" type ="city" placeholder="Search for a city" autofocus>
+                    <button id="getPic" type="submit" onclick="cityBackgroundImage();"class="button1">submit</button>
+                </form>
+                <section class="inputs">
+                    <p> 3 Day Forecast<p>
+                      <a href="7day.html" class="button1">Button</a>
+                 </section>
+         
                 <!-- current weather -->
-                <a href="7day.html">See your 3 Day Forecast</a>
+               
             </div>
             <!-- <a href="#" id="button">Enter City</a> -->
             <section>
