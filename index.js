@@ -8,10 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // get the forcast and the elements from the forecast
     function getForcast() {
     //get location 
-
+    
     
     const API_KEY = "a35c94fe128a46eaa9e174739221204" // has to hidden and imported 
-    
     const city = "Atlanta"
     
         fetch(`https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=7&aqi=no&alerts=no`).then(function(response) {
@@ -20,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
            }
             return response.json();
         }).then(function(data) {
+            // document.getElementById('city').innerHTML = data.location.name
         console.log(data)
         //get the location 
 
@@ -95,8 +95,6 @@ document.addEventListener("DOMContentLoaded", function() {
             `
         
 
-       
-           
         }).catch(function (error) {
             console.log("Theres a error!")
             console.log(error);

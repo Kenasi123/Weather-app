@@ -5,7 +5,7 @@
 }
 
 body {
-        display:grid
+        display:grid;
         font-family: 'Abril Fatface', cursive;
         font-size: 18px;
         letter-spacing: 2px;
@@ -39,7 +39,7 @@ body {
         margin:0.4em auto;
         }
         }
-.sun {
+    .sun {
         
         position:absolute;
         top:50px;
@@ -111,7 +111,6 @@ body {
         text-align: center;
         font-size: 30px; 
         color:black;
-        background-color: ;
         border: 5px solid rgba(28,110,164,0.36);
     }
     .alminac {
@@ -127,7 +126,7 @@ body {
     }
     @media screen and (min-width:1201px) and (max-width:1475px) {
         body {
-            display:grid
+            display:grid;
             font-family: 'Abril Fatface', cursive;
             font-size: 18px;
             letter-spacing: 2px;
@@ -146,7 +145,7 @@ body {
             text-align: center;
             font-size: 30px; 
             color:black;
-            background-color: ;
+        
             border: 5px solid rgba(28,110,164,0.36);
         }
         .affirmations {
@@ -167,7 +166,7 @@ body {
     }
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
         body {
-            display:grid
+            display:grid;
             font-family: 'Abril Fatface', cursive;
             font-size: 18px;
             letter-spacing: 2px;
@@ -187,7 +186,7 @@ body {
             text-align: center;
             font-size: 30px; 
             color:black;
-            background-color: ;
+           
             border: 5px solid rgba(28,110,164,0.36);
         }
         .affirmations {
