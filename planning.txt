@@ -31,5 +31,13 @@ API's used: Weather App, Moon tracker or Almanac API, Notification/text Api
 Click on the skyline and it flips to the almanac part
 Background when sunny its sunshine and when rainy its 
 
+==================================
+ RESTful API is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. 
+ 
+ We used a Rest Api using the Chain Promises
+
+Promblems
+========= 
+Deciding whether to use async and await rather then
 
 
