@@ -1,11 +1,11 @@
 # Weather-app 
-Features: 
+
 Features: Displays the State 
 API's used: Weather App, Random Advice Api
 
 
 ==================================
- RESTful API is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. 
+RESTful API is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. 
  
  We used a Rest Api using the Chain Promises
  
