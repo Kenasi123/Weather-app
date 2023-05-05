@@ -17,7 +17,7 @@ RESTful API is an architectural style for an application program interface (API)
  getElement by Id 
  
 
-Promblems
+Problems 
 ========= 
 Deciding whether to use async and await ES6 Javascript rather then promise witth resolve and reject
 Git Hub 
